@@ -1,0 +1,13 @@
+@media (max-width: 600px) {
+    .products {
+        display: inherit;
+        height: auto;
+    }
+    .product {
+        margin-top: auto;
+        padding: 4%;
+    }
+    .home .home2 {
+        display: inherit;
+    }
+}

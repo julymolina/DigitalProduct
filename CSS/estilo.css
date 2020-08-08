@@ -1,0 +1,251 @@
+            html,
+            body {
+                margin: 0px;
+                /* padding: 0px 20px 0px 20px; */
+                font-size: 12px;
+                font-family: 'Open Sans', sans-serif;
+            }
+            
+            nav {
+                display: flex;
+                background-color: #7acc2c;
+                padding: 10px;
+                color: white;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            nav ul {
+                display: flex;
+            }
+            
+            nav li {
+                padding-left: 20px;
+                list-style: none;
+            }
+            
+            nav li a {
+                color: black;
+                text-decoration: none;
+            }
+            
+            nav li a:hover {
+                color: white;
+            }
+            /* MAIN SECTION */
+            
+            .mainSection {
+                padding: 10% 15% 15% 15%;
+                text-align: center;
+            }
+            
+            .products {
+                background-image: url(/Images/curve.png);
+                height: 50px;
+                background-size: cover;
+                background-position: center top;
+                padding: 15%;
+                display: flex;
+            }
+            
+            .product {
+                padding: 10px;
+                margin-top: -240px;
+            }
+            
+            .product .content {
+                background-color: white;
+                padding: 15px;
+                box-shadow: 0 0 1px #c1bcbc;
+                margin-left: 40px;
+            }
+            
+            .imgContent {
+                text-align: center;
+            }
+            
+            .mainButton {
+                background-color: #7ACC2D;
+                width: 100%;
+                padding: 10px;
+                font-size: 12px;
+                color: white;
+                border: 0;
+                cursor: pointer;
+                border-radius: 2px;
+            }
+            
+            .mainButton:hover {
+                background-color: #5e9e22;
+            }
+            /* AQUI EMPIEZA EL HOME 1  */
+            
+            .home {
+                height: 150px;
+                background-position: center;
+                padding: 15%;
+                display: flex;
+                justify-content: space-between;
+                margin-top: -100px;
+            }
+            
+            .homeSection {
+                padding: 10px;
+            }
+            
+            .homeSection1 {
+                padding: 15px;
+            }
+            
+            .homeImgContainer {
+                text-align: center;
+            }
+            
+            .homeH3 {
+                font-family: "Open Sans", Bold;
+                text-align: center;
+                font-size: 17px;
+            }
+            /* Aqui estan los Párrafos */
+            
+            .homeParagraf1 {
+                top: 1143px;
+                left: 223px;
+                width: 154px;
+                height: 53px;
+                text-align: left;
+                font-size: 12px;
+                font-family: "Open Sans", Regular;
+                color: #313337;
+                letter-spacing: 0px;
+            }
+            
+            .homeParagraf2 {
+                top: 1143px;
+                left: 903px;
+                width: 154px;
+                height: 53px;
+                text-align: left;
+                font-size: 12px;
+                font-family: "Open Sans", Regular;
+                letter-spacing: 0px;
+                color: #313337;
+                opacity: 1;
+            }
+            
+            .homeParagraf3 {
+                top: 1143px;
+                left: 563px;
+                width: 154px;
+                height: 53px;
+                text-align: left;
+                font-size: 12px;
+                font-family: "Open Sans", Regular;
+                letter-spacing: 0px;
+                color: #313337;
+                opacity: 1;
+            }
+            /* Aqui empiezan las Imagenes de GIF */
+            
+            .homeImgCute {
+                top: 958px;
+                left: 239px;
+                width: 105px;
+                height: 104px;
+            }
+            
+            .homeImgHot {
+                top: 962px;
+                left: 932px;
+                width: 105px;
+                height: 104px;
+            }
+            
+            .homeImgSaturn {
+                top: 963px;
+                left: 584px;
+                width: 105px;
+                height: 104px;
+            }
+            /* HOME 2  HOME 2  HOME 2  HOME 2  HOME 2 */
+            
+            .home2H1 {
+                font-family: 'Open Sans', Bold;
+                text-align: center;
+                color: #313337;
+                font-size: 30px;
+            }
+            
+            .home2 {
+                height: 90px;
+                background-position: center;
+                display: flex;
+                justify-content: space-between;
+                padding: 30px 15% 18% 8%;
+            }
+            
+            .homeSection2 {
+                width: 234px;
+                height: 184px;
+                box-shadow: 0px 3px 6px gray;
+                padding-bottom: 8px;
+                margin: 4px;
+            }
+            
+            .homeSection2H2 {
+                font-family: 'Open Sans', Bold;
+                font-size: 17px;
+                color: #313337;
+                text-align: left;
+                margin: 6px;
+            }
+            
+            .homeSection2P2 {
+                font-family: 'Open Sans', Regular;
+                font-size: 12px;
+                text-align: left;
+                color: #313337;
+                margin: 7px;
+            }
+            /* HOME 2 IMAGENES  HOME 2 IMAGENES  HOME 2 IMAGENES  HOME 2 IMAGENES */
+            
+            .home2Img1Container {
+                text-align: center;
+            }
+            
+            .home2Img1 {
+                top: 1436px;
+                left: 138px;
+                width: 230px;
+                height: 100px;
+                border-radius: 2px 2px 0px 0px;
+            }
+            
+            .home2Img2 {
+                top: 1436px;
+                left: 138px;
+                width: 230px;
+                height: 100px;
+            }
+            
+            .home2Img3 {
+                top: 1436px;
+                left: 138px;
+                width: 230px;
+                height: 100px;
+            }
+            
+            .home2Img4 {
+                top: 1436px;
+                left: 138px;
+                width: 230px;
+                height: 100px;
+            }
+            
+            footer {
+                background-color: #313337;
+                color: white;
+                display: flex;
+                justify-content: space-between;
+                padding: 5px 20px;
+            }
