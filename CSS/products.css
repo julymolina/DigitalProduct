@@ -20,7 +20,7 @@
     }
     
     .product1 {
-        background-image: url('/Images/box2.png');
+        background-image: url('../Images/box2.png');
         background-repeat: no-repeat;
         background-position: center;
         width: 250px;
@@ -36,7 +36,7 @@
     }
     
     .product2 {
-        background-image: url('/Images/ben2.png');
+        background-image: url('../Images/ben2.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -53,7 +53,7 @@
     }
     
     .product3 {
-        background-image: url('/Images/ben3.png');
+        background-image: url('../Images/ben3.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;

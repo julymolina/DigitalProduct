@@ -39,7 +39,7 @@
             }
             
             .products {
-                background-image: url(/Images/curve.png);
+                background-image: url('../Images/curve.png');
                 height: 50px;
                 background-size: cover;
                 background-position: center top;
